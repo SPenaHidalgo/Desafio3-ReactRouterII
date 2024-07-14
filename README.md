@@ -5,7 +5,7 @@
 - Uso de la página
 
 *Descripción*
-- El siguiente desafío consiste en realizar una SPA para evaluar la correcta implementación de React, React Router y el uso del Context API. El proyecto se enmarca dentro del desafío 3 del módulo 5 del BootCamp de DesafioLatam.
+- El siguiente desafío consiste en crear una SPA con la finalidad de evaluar la implementación de REACT ROUTER, REACT + VITE, el uso de Context API, como también de los Hooks UseParams y UseNavigate. El proyecto se enmarca dentro del desafío 3 del módulo 5 del BootCamp de DesafioLatam.
 
 *Tecnologías utilizadas*
 - HTML
