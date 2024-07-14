@@ -1,42 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+  font-weight: 400;
+}
+
+main {
   text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+button:hover {
+  background-color: #333;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  margin-top: 1rem;
+  color: red;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img{
+  width: 254px;
+  height: 245px;
 }
 
 .card {
-  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 0 auto;
+  border: 1px solid #333;
+  border-radius: .8em;
+  max-width: 25rem;
+  padding: 1rem;
+  text-align: left;
 }
 
-.read-the-docs {
-  color: #888;
+.card-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 800; 
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+  nav {
+    padding: 1.5rem 3rem;
+  }
+
+  select {
+    max-width: 20rem;
+  }
+
+  button {
+    width: auto;
+    margin-left: 1em;
+  }
 }
